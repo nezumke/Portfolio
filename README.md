@@ -19,4 +19,4 @@ An old project with email signatures. I was learning HTML with table-based struc
 
 ## Newsletter sign up form
 
-Simple newsletter signup form built with plain HTML, CSS and JS without any frameworks or libraries to practice DOM manipulation and functions. Plus a fancy CSS effects like a custom cursor that changes color depending on the background.
+Simple newsletter signup form built with plain HTML, CSS and JS without any frameworks or libraries to practice DOM manipulation and functions. Plus fancy CSS effects like a custom cursor that changes color depending on the background.
