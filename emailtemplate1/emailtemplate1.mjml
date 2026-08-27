@@ -1,7 +1,7 @@
 <mjml>
   <mj-body background-color="rgb(238, 226, 226)">
 
-    <mj-section background-url="/flower3.jpg" background-size="cover" full-width="full-width" background-repeat="no-repeat">
+    <mj-section background-url="flower3.jpg" background-size="cover" full-width="full-width" background-repeat="no-repeat">
       <mj-column width="100%" vertical-align="middle">
 
         <mj-text align="center" padding-bottom="10px" padding-top="45px">
@@ -29,11 +29,10 @@
       </mj-column>
     </mj-section>
 
-    <!-- ===== Trzy rzędy obrazek+tekst, na zmianę stron ===== -->
     <mj-section background-color="rgb(255, 255, 255)" full-width="full-width">
       <mj-column width="50%" vertical-align="middle">
 
-        <mj-image src="/flower2.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
+        <mj-image src="flower2.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
 
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
@@ -63,7 +62,7 @@
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
 
-        <mj-image src="/flower.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
+        <mj-image src="flower.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
 
       </mj-column>
     </mj-section>
@@ -79,7 +78,7 @@
     <mj-section background-color="rgb(255, 255, 255)" full-width="full-width">
       <mj-column width="50%" vertical-align="middle">
 
-        <mj-image src="/flower4.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
+        <mj-image src="flower4.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
 
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
@@ -104,7 +103,7 @@
     <mj-section background-color="rgb(238, 226, 226)" full-width="full-width">
       <mj-column vertical-align="top">
 
-        <mj-image src="/plant.png" alt="" width="50px"></mj-image>
+        <mj-image src="plant.png" alt="" width="50px"></mj-image>
 
         <mj-text align="center" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="25px">
           <div style="min-height: 40px;"><span style="font-size: 14px; color: hsl(213, 31%, 36%)">Name meaning / origin</span></div><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend sagittis nunc, et fermentum est ullamcorper dignissim.
@@ -113,7 +112,7 @@
       </mj-column>
       <mj-column vertical-align="top">
 
-        <mj-image src="/bloom.png" alt="" width="50px"></mj-image>
+        <mj-image src="bloom.png" alt="" width="50px"></mj-image>
 
         <mj-text align="center" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="25px">
           <div style="min-height: 40px;"><span style="font-size: 14px; color: hsl(213, 31%, 36%)">What season</span></div><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend sagittis nunc, et fermentum est ullamcorper dignissim.
@@ -122,7 +121,7 @@
       </mj-column>
       <mj-column vertical-align="top">
 
-        <mj-image src="/night.png" alt="" width="50px"></mj-image>
+        <mj-image src="night.png" alt="" width="50px"></mj-image>
 
         <mj-text align="center" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="25px">
           <div style="min-height: 40px;"><span style="font-size: 14px; color: hsl(213, 31%, 36%)">Symbolism</span></div><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend sagittis nunc, et fermentum est ullamcorper dignissim.
@@ -134,7 +133,7 @@
     <mj-section background-color="rgb(255, 255, 255)" full-width="full-width">
       <mj-column width="50%" vertical-align="middle">
 
-        <mj-image src="/flowers-email.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
+        <mj-image src="flowers-email.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
 
       </mj-column>
       <mj-column width="50%" vertical-align="middle">

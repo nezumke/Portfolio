@@ -102,15 +102,15 @@
 
         <mj-table cellpadding="3" font-size="13px" padding="0">
           <tr>
-            <td style="width:24px; vertical-align:middle;"><img src="emailtemplate2/icons/phone.png" width="18" height="18" alt="Telefon" style="display:block;" /></td>
+            <td style="width:24px; vertical-align:middle;"><img src="phone.png" width="18" height="18" alt="Telefon" style="display:block;" /></td>
             <td style="vertical-align:middle; color:#333333; padding-left:6px;">+48 123-456-789</td>
           </tr>
           <tr>
-            <td style="width:24px; vertical-align:middle;"><img src="emailtemplate2/icons/email.png" width="18" height="18" alt="E-mail" style="display:block;" /></td>
+            <td style="width:24px; vertical-align:middle;"><img src="email.png" width="18" height="18" alt="E-mail" style="display:block;" /></td>
             <td style="vertical-align:middle; color:#333333; padding-left:6px;">dreamdeveloper@gmail.com</td>
           </tr>
           <tr>
-            <td style="width:24px; vertical-align:middle;"><img src="emailtemplate2/icons/web.png" width="18" height="18" alt="Strona WWW" style="display:block;" /></td>
+            <td style="width:24px; vertical-align:middle;"><img src="web.png" width="18" height="18" alt="Strona WWW" style="display:block;" /></td>
             <td style="vertical-align:middle; color:#333333; padding-left:6px;">www.dreamworksleep.com</td>
           </tr>
           <tr>
