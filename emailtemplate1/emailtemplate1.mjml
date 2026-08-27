@@ -1,0 +1,167 @@
+<mjml>
+  <mj-body background-color="rgb(238, 226, 226)">
+
+    <mj-section background-url="/flower3.jpg" background-size="cover" full-width="full-width" background-repeat="no-repeat">
+      <mj-column width="100%" vertical-align="middle">
+
+        <mj-text align="center" padding-bottom="10px" padding-top="45px">
+          <span style="font-size: clamp(16px, 6vw, 30px); line-height: 1.25; word-break: normal; overflow-wrap: normal; color: rgb(69, 71, 78); background-color: rgba(208,194,201,0.85); padding: 10px 24px; border-radius: 17px; display: inline-block;">WILDFLOWERLY NEWSLETTER</span>
+        </mj-text>
+
+        <mj-button align="center" background-color="rgb(153, 176, 194)" color="rgb(69, 71, 78)" border-radius="25px" href="#link" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="45px" padding-top="10px">Visit our page</mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+
+        <mj-text align="center" color="rgb(69, 71, 78)" font-size="20px">Hello, Name!<br /><br /> <span style="font-size: 12px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec pede justo, fringilla vel, aliquet nec, vulputate </span></mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="rgb(255, 255, 255)">
+      <mj-column>
+
+        <mj-text align="center" color="rgb(69, 71, 78)" font-size="18px" padding-bottom="10px" padding-top="10px">What you could have missed</mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- ===== Trzy rzędy obrazek+tekst, na zmianę stron ===== -->
+    <mj-section background-color="rgb(255, 255, 255)" full-width="full-width">
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-image src="/flower2.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
+
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-text align="left" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="10px" padding-top="15px"><span style="font-weight: bold; font-size: 14px; color: #45474e">Autumn Garden</span><br /><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</mj-text>
+
+        <mj-text align="left" color="rgb(69, 71, 78)" font-size="11px" padding-top="0" padding-bottom="25px"><a href="#" style="color:#45474e; text-decoration:none;">Read more</a></mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="rgb(255, 255, 255)" full-width="full-width">
+      <mj-column width="100%">
+
+        <mj-divider border-color="rgb(69, 71, 78)" border-style="solid" border-width="1px" padding-left="0" padding-right="0" padding-bottom="10px" padding-top="10px"></mj-divider>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="rgb(255, 255, 255)" full-width="full-width">
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-text align="left" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="10px" padding-top="15px"><span style="font-weight: bold; font-size: 14px; color: #45474e">Blog article title</span><br /><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</mj-text>
+
+        <mj-text align="left" color="rgb(69, 71, 78)" font-size="11px" padding-top="0" padding-bottom="25px"><a href="#" style="color:#45474e; text-decoration:none;">Read more</a></mj-text>
+
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-image src="/flower.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="rgb(255, 255, 255)" full-width="full-width">
+      <mj-column width="100%">
+
+        <mj-divider border-color="rgb(69, 71, 78)" border-style="solid" border-width="1px" padding-left="0" padding-right="0" padding-bottom="10px" padding-top="10px"></mj-divider>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="rgb(255, 255, 255)" full-width="full-width">
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-image src="/flower4.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
+
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-text align="left" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="10px" padding-top="25px"><span style="font-weight: bold; font-size: 14px; color: rgb(69, 71, 78)">Blog article title</span><br /><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</mj-text>
+
+        <mj-text align="left" color="rgb(69, 71, 78)" font-size="11px" padding-top="0" padding-bottom="25px"><a href="#" style="color:#45474e; text-decoration:none;">Read more</a></mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="rgb(238, 226, 226)" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+
+        <mj-text align="center" color="rgb(69, 71, 78)" font-size="18px" padding-bottom="10px">Flower of the month</mj-text>
+
+        <mj-divider border-color="rgb(69, 71, 78)" border-style="solid" border-width="1px" padding-left="100px" padding-right="100px" padding-bottom="20px" padding-top="20px"></mj-divider>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="rgb(238, 226, 226)" full-width="full-width">
+      <mj-column vertical-align="top">
+
+        <mj-image src="/plant.png" alt="" width="50px"></mj-image>
+
+        <mj-text align="center" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="25px">
+          <div style="min-height: 40px;"><span style="font-size: 14px; color: hsl(213, 31%, 36%)">Name meaning / origin</span></div><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend sagittis nunc, et fermentum est ullamcorper dignissim.
+        </mj-text>
+
+      </mj-column>
+      <mj-column vertical-align="top">
+
+        <mj-image src="/bloom.png" alt="" width="50px"></mj-image>
+
+        <mj-text align="center" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="25px">
+          <div style="min-height: 40px;"><span style="font-size: 14px; color: hsl(213, 31%, 36%)">What season</span></div><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend sagittis nunc, et fermentum est ullamcorper dignissim.
+        </mj-text>
+
+      </mj-column>
+      <mj-column vertical-align="top">
+
+        <mj-image src="/night.png" alt="" width="50px"></mj-image>
+
+        <mj-text align="center" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="25px">
+          <div style="min-height: 40px;"><span style="font-size: 14px; color: hsl(213, 31%, 36%)">Symbolism</span></div><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend sagittis nunc, et fermentum est ullamcorper dignissim.
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="rgb(255, 255, 255)" full-width="full-width">
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-image src="/flowers-email.jpg" alt="" padding-bottom="20px" padding-top="20px"></mj-image>
+
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-text align="left" color="rgb(157, 163, 163)" font-size="11px" padding-bottom="25px" padding-top="25px"><span style="font-weight: bold; font-size: 14px; color: rgb(69, 71, 78)">Wildflower guide app is now available and you can contribute!</span><br /><br />We've launched a map app with wildflower locations. Now you can discover rare wildflowers in your area, add the ones you find and create an online library of your rare discoveries</mj-text>
+
+        <mj-button align="left" background-color="rgb(153, 176, 194)" color="rgb(255, 255, 255)" border-radius="24px" font-size="11px" href="#" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="45px" padding-top="10px">READ MORE</mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section full-width="full-width">
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-text align="center" font-size="11px" padding-bottom="0px" padding-top="0px">
+          <p style="font-size: 11px">Wildflower Garden</p>
+        </mj-text>
+
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+
+        <mj-social font-size="11px" icon-size="22px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#facebook.com" background-color="transparent" />
+          <mj-social-element name="instagram" href="#instagram.com" background-color="transparent" />
+        </mj-social />
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Paulina Glinka Portfolio</title>
+</head>
+<body>
+    <section id="header">
+        <header>
+            <nav class="nav-bar">
+                <a href="/index.html" class="logo">Paulina Glinka</a>
+                <ul class="nav-links">
+                    <li><a href="/omnie.html">O mnie</a></li>
+                    <li><a href="#email-dev">Email Dev</a></li>
+                    <li><a href="#projects">Projekty</a></li>
+                    <li><a href="#footer">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <div class="margin90">
+
+        <section id="about">
+            <img src="images/photomain.jpg" alt="about-photo" id="about-photo">
+            <div class="about-txt">
+                <h1>O mnie</h1>
+                <p>Lubię projektować i budować strony na bazie samego HTML i CSS - ma to oczywiście swoje ograniczenia. Obecnie jestem na etapie, gdzie uczę się kodowania w czystym JavaScript, aby móc nie tylko tworzyć w końcu bardziej rozbudowane projekty, ale przede wszystkim aby lepiej zrozumieć, analizować i debuggować kod w przyszłości. 
+                    
+                Mam nadzieję, że ostatecznie będę miała możliwość pracy i rozwoju w obszarze frontend developmentu, jak również web designu.
+                
+                <br><br><br>Obecna wersja portfolio została zrobiona, aby móc zaprezentować aktualne projekty - jest ona wciąż aktualizowana zarówno wizualnie, aby kod był spójny, jak i stanowi dla mnie pole do praktycznych zastosowań nowo nabytych umiejętności na bieżąco.</p>
+                <a href="/omnie.html" class="more-btn">Więcej</a>
+            </div>
+        </section>
+
+        <div class="divider">
+            <svg viewBox="0 0 800 40" width="100%" height="40" preserveAspectRatio="none">
+                <path d="M0,0 L300,0 Q380,0 400,36 Q420,0 500,0 L800,0" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+            </svg>
+        </div>
+
+        <!--email development-->
+        <section id="email-dev">
+            <h2 class="section-title">Email Development</h2>
+
+            <div class="email-templates-row">
+
+                <!--email template1-->
+                <article class="project-card card">
+                    <div class="email-card-header">
+                        <h3>Szablon e-mail MJML + HTML </h3>
+                    </div>
+                    <div class="device-wrap">
+                        <div class="device-frame">
+                            <div class="device-chrome">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <iframe src="/emailtemplate1/emailtemplate1.html" title="email-on-device"></iframe>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p>Responsywny szablon e-mail zbudowany w email frameworku MJML dla spójnego wyświetlania wiadomości u różnych klientów pocztowych</p>
+                        <div class="project-links">
+                            <a href="/emailtemplate1/emailtemplate1.html" target="_blank" rel="noopener" class="more-btn">Pełny podgląd </a>
+                            <a href="https://nezumke.github.io/portfolio//tree/main/emailtemplate2" target="_blank" rel="noopener" class="more-btn">Zobacz na Github</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!--email template2-->
+                <article class="project-card card">
+                    <div class="email-card-header">
+                        <h3>Szablon e-mail MJML + HTML</h3>
+                    </div>
+                    <div class="device-wrap">
+                        <div class="device-frame">
+                            <div class="device-chrome">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <iframe src="/emailtemplate2/emailtemplate2.html" title="email-on-device"></iframe>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p>Responsywny szablon e-mail zbudowany w email frameworku MJML dla spójnego wyświetlania wiadomości u różnych klientów pocztowych</p>
+                        <div class="project-links">
+                            <a href="/emailtemplate2/emailtemplate2.html" target="_blank" rel="noopener" class="more-btn">Pełny podgląd </a>
+                            <a href="https://nezumke.github.io/portfolio//tree/main/emailtemplate2" target="_blank" rel="noopener" class="more-btn">Zobacz na Github</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!--email signatures -->
+            <article class="project-card card signatures">
+                <img src="images/signature.png" alt="Podgląd projektu stopek mailowych" class="project-photo">
+                <div class="project-info">
+                    <h3>Stopki mailowe</h3>
+                    <p>Projekty podpisów mailowych, w późniejszym czasie przełożone na kod HTML. Stopki kodowane zgodnie z zachowaniem zasad kodowania emaili (przy użyciu struktury tabelkowej).</p>
+                </div>
+                <div class="project-links">
+                    <a href="https://www.behance.net/gallery/216795051/HTML-based-Email-Signature-Designs" target="_blank" rel="noopener"class="more-btn">Behance</a>
+                </div>
+            </article>
+        </section>
+
+        <!--projekty js-->
+        <section id="projects">
+            <h2 class="section-title">Projekty JS</h2>
+            <div class="projects-js">
+
+                <article class="project-card js-card">
+                    <div class="project-photo-wrap">
+                        <img src="images/game-pic.png" alt="game-pic" class="project-photo">
+                        <a href="https://nezumke.github.io/rock-paper-scissors-game/"><span class="photo-hover">PLAY</span></a>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kamień, papier, nożyce</h3>
+                        <p> Gra zbudowana z czystym JS, bez użycia żadnych frameworków lub bibliotek. Zrobiona podczas nauki podstaw JavaScript (logika, funckje, manipulacja DOM)</p>
+                        <div class="project-links">
+                            <a href="https://nezumke.github.io/rock-paper-scissors-game/" target="_blank" rel="noopener"class="more-btn js-btn">Zagraj</a>
+                            <a href="https://github.com/nezumke/rock-paper-scissors-game" target="_blank" rel="noopener"class="more-btn js-btn">Kod na GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card js-card">
+                    <div class="project-photo-wrap">
+                        <img src="images/screenshotnews.png" alt="Zrzut ekranu formularza zapisu do newslettera" class="project-photo">
+                        <a href="https://nezumke.github.io/SingUP/"><span class="photo-hover">CLICK TO SEE</span></a>
+                    </div>
+                    <div class="project-info">
+                        <h3>Formularz zapisu do newslettera</h3>
+                        <p>Fromularz zbudowany w czystym JS do nauki języka + testowania efektów CSS</p>
+                        <div class="project-links">
+                            <a href="https://nezumke.github.io/SingUP/" target="_blank" rel="noopener"class="more-btn js-btn">Zobacz</a>
+                            <a href="https://github.com/nezumke/SingUP" target="_blank" rel="noopener"class="more-btn js-btn">Kod na GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </div>
+
+    <section id="footer">
+        <div></div>
+    </section>
+</body>
+</html>
