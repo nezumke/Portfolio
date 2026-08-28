@@ -2,7 +2,7 @@
   <mj-head>
     <mj-title>Sleep</mj-title>
     <mj-preview>Sleep email template</mj-preview>
-    <mj-breakpoint width="480px" />
+    <mj-breakpoint width="370" />
     <mj-attributes>
       <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
 
@@ -32,7 +32,7 @@
     </mj-style>
 
   </mj-head>
-  <mj-body background-color="#641b1b" width="600px">
+  <mj-body background-color="#641b1b">
     <mj-section full-width="full-width" background-color="#b5aaaa" padding-bottom="0">
       <mj-column width="100%">
 
@@ -75,9 +75,9 @@
           You can also contact us if you have any questions about our products, tips of services we offer.
         </mj-text>
 
-        <mj-button background-color="#bf5e5e" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="#">
-          Get our app
-        </mj-button>
+        <mj-button background-color="#bf5e5e" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="#" width="auto">
+  Get our app
+</mj-button>
 
       </mj-column>
     </mj-section>
