@@ -110,6 +110,7 @@ body{
     text-align: left;
     padding: 60px 40px;
     gap: 40px;
+    line-height: 24px;
 }
 
 .more-btn{
@@ -328,9 +329,13 @@ body{
     }
 
     #about-photo {
-        width: 100%;
-        height: 260px;
-        border-radius: 20px 20px 0 0;
+        width: 70%;
+        border-radius: 0;
+        object-fit: cover;
+    }
+
+    .about-txt p{
+        font-size: 16px;
     }
 
     .margin90 {
@@ -346,24 +351,33 @@ body{
     .device-frame--desktop iframe {
         height: 380px;
     }
+    .nav-links li:not(:last-child)::after {
+        display: none;
+    }
 }
 
-@media (max-width: 520px){
 
-.margin90{
-    margin: 20px;
-}
-.about-txt {
-    padding: 30px 30px;
-}
-}
-
-@media (max-width: 460px) {
+@media (max-width: 445px) {
 
     .margin90 {
-        margin: 20px;
+        margin: 10px;
     }
     .about-txt{
         padding: 40px 20px;
+    }
+    .nav-links li:not(:last-child)::after {
+    display: none;
+    }
+
+    .about-txt p{
+        font-size: 14px;
+    }
+
+    #about-photo {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px 20px 0 0;
+        object-fit: cover;
+        
     }
 }
