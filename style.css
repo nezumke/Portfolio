@@ -95,6 +95,7 @@ body{
     align-items: center;
     background-color: var(--dark-green);
     border-radius: 20px;
+    box-shadow: 5px 5px rgba(189, 202, 179, 0.511);
 }
 
 #about-photo {
@@ -144,6 +145,7 @@ body{
 .project-card.card {
     background-color: var(--dark-green);
     border-radius: 20px;
+    box-shadow: 5px 5px rgba(189, 202, 179, 0.511);
 }
 
 .signatures {
